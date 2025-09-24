@@ -1,4 +1,4 @@
-import databaseImg from "../assets/img/services/database.jpg";
+import databaseImg from "../assets/img/services/Database.jpg";
 import dataAnalyticsImg from "../assets/img/services/Data-Analytics.jpg";
 import webDevelopmentImg from "../assets/img/services/Web-Development.jpg";
 import technicalSupportImg from "../assets/img/services/Technical-Support.jpg";
