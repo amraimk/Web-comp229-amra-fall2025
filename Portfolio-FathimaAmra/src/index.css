@@ -288,6 +288,46 @@ h2 {
 }
 
 
+/* ================= Education ================= */
+
+.education {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 5rem;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  text-align: left;
+}
+
+.education h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.education-section {
+  margin-bottom: 2rem;
+}
+
+.education-section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+  color: #555;
+}
+
+.education-section p {
+  font-size: 1rem;
+  margin: 0.2rem 0;
+}
+
+.line {
+  height: 2px;              
+  background-color: #cccccc; 
+  margin: 1.5rem 0;
+  border: none;       
+  width: 70%;      
+}
+
+
 /* ===== Footer ===== */
 .footer {
   padding: 0 2rem 0 2rem;
