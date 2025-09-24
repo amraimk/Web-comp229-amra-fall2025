@@ -1,6 +1,6 @@
-import project1 from "../assets/img/project1.png"
-import project2 from "../assets/img/project2.png"
-import project3 from "../assets/img/project3.png"
+import project1 from "../assets/img/Project1.png"
+import project2 from "../assets/img/Project2.png"
+import project3 from "../assets/img/Project3.png"
 
 export default function Projects() {
     return (
