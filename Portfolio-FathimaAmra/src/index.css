@@ -68,10 +68,111 @@ main {
 }
 
 
+/* ================= Sections ================= */
+.home {
+  display: flex;
+  margin-top: 100px;
+  padding: 2rem;
+  flex-direction: column;
+}
+
+.home-content {
+  margin: 0 auto;
+}
+
+.intro {
+  margin-left: 70px;
+  margin-bottom: 100px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-align: left;
+}
+
+.intro h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #122620;
+}
+
+.tagline {
+  font-size: 1.8rem;
+  padding-right: 5rem;
+  color: #747474;
+  width: 100%;
+}
+
+.home-welcome-text p {
+  font-size: 1.2rem;
+  color: #122620;
+  line-height: 1.6;
+  margin: 1.5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+.btn-about-me {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-about-me:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.highlights {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  padding: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+.highlight-card {
+  background-color: #bdc3cb;
+  border-radius: 10px;
+  padding: 1.5rem;
+  flex: 1 1 200px;
+  /* responsive card width */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  background-color: #dcd2cc;
+}
+
+.icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.4;
+}
+
 
 /* ===== Footer ===== */
 .footer {
-  padding: 0 3rem 0 3rem;
+  padding: 0 2rem 0 2rem;
   color: #333;
   font-family: sans-serif;
   background-color: #e9eaec;
