@@ -66,3 +66,101 @@ main {
 .navbar a:hover {
   color: #bca88e;
 }
+
+
+
+/* ===== Footer ===== */
+.footer {
+  padding: 0 3rem 0 3rem;
+  color: #333;
+  font-family: sans-serif;
+  background-color: #e9eaec;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 0.75rem;
+  text-align: left;
+  padding: 4rem 4rem 0 4rem;
+}
+
+.footer-content p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-email {
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: #1d1e1e;
+  text-decoration: none;
+}
+
+.footer-email:hover {
+  text-decoration: none;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.btn-contact {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.8rem;
+  min-width: 120px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+.btn-contact:hover {
+  background-color: #555;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid #747474;
+  align-content: center;
+}
+
+.social-links {
+  margin: 1rem 4rem 2rem 4rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.social-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+  color: #555;
+}
+
+.received-info {
+  color: #333;
+  font-weight: 500;
+}
+
+
+/* ================= Responsive ================= */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
